@@ -1,20 +1,29 @@
 /*
  * File: ui/todo-item.tsx
  */
+"use client";
+
 import { Checkbox } from "@/components/ui/checkbox";
 
 export default function  TodoItem({
+	todoId,
 	title,
 	description,
 	completed,
 }: {
+	todoId: number;
 	title: string;
 	description?: string;
 	completed: boolean;
 }) {
 	return (
 		<div className="flex flex-row gap-5 items-center">
-			<Checkbox defaultChecked={completed} />
+			<Checkbox defaultChecked={completed} 
+				onCheckedChange={(e) => {
+					// Hier fehlt noch die Logik.
+					console.log(e.valueOf(), todoId);
+				}}
+			/>
 			<div
 				className="flex flex-col"
 			>

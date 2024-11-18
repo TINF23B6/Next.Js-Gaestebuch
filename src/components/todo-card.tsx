@@ -13,10 +13,11 @@ export default function TodoCard() {
 				<Input placeholder="Neue To-Do hinzufügen..." />
 				<Separator />
 				{/* <TodoItem
-						title="Next.js Präsentation"
-						description="Schaun' wir mal, was wird"	
-						completed={false}
-					/> */}
+					todoId={1}
+					title="Next.js Präsentation"
+					description="Schaun' wir mal, was wird"
+					completed={false}
+				/> */}
 				<pre className="text-muted-foreground text-sm px-2">
 					Hier ist es noch ziemlich leer...
 				</pre>
