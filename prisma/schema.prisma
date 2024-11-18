@@ -15,7 +15,7 @@ datasource db {
 
 // Models
 
-model Task {
+model Todo {
 	id 	  Int      @id @default(autoincrement())
 	title String
 	description String?
