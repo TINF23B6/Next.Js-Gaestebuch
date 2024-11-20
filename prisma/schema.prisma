@@ -15,7 +15,8 @@ datasource db {
 
 // Models
 
-model Todo {
+model Entry {
 	id 	  Int      @id @default(autoincrement())
-	title String
+	name String
+	message String
 }

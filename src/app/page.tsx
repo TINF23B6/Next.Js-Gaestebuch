@@ -1,4 +1,4 @@
-import TodoCard from "@/components/todo-card";
+import TodoCard from "@/components/guestbook-card";
 
 export default function Page() {
 	return (
