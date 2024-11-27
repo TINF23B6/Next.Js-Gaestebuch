@@ -6,6 +6,5 @@ export default function Logo() {
 		alt="DHBW Logo"
 		width={32}
 		height={32}
-		className="absolute bottom-6 right-6"
 	/>
 }
