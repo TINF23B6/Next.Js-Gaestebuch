@@ -33,11 +33,9 @@ export default function RootLayout({
 			>
 				<ThemeProvider
 					attribute="class"
-					forcedTheme="dark"
-					disableTransitionOnChange
 				>
 					{children}
-c				</ThemeProvider>
+				</ThemeProvider>
 			</body>
 		</html>
 	);
